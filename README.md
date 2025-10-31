@@ -422,12 +422,6 @@ The platform includes realistic demo data so you can:
 
 Whether you're interested in crypto, sports, politics, or just want to test your forecasting skills, Polymarket Pro offers a unique and engaging platform to put your knowledge to work.
 
----
-
-**Ready to start?** Connect your wallet and explore the markets!
-
-**Need help?** Click the AI chatbot in the bottom-right corner!
-
-**Have questions?** Check out our comprehensive README.md!
+ 
 
 *Built with ❤️ on Polygon blockchain*
