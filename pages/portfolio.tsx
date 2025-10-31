@@ -174,8 +174,10 @@ const Portfolio = () => {
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">No Active Positions</h3>
               <p className="text-white/60 mb-4">Start trading on markets to see your positions here!</p>
-              <Link href="/" className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 rounded-full font-semibold text-white hover:scale-105 transition-transform">
-                Browse Markets
+              <Link href="/">
+                <a className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 rounded-full font-semibold text-white hover:scale-105 transition-transform"> 
+                  Browse Markets
+                </a>
               </Link>
             </div>
           ) : (
