@@ -1,4 +1,5 @@
 import Plotly from "plotly.js-dist-min";
+import type { Layout } from "plotly.js";
 import React, { useEffect } from "react";
 import Web3 from "web3";
 import { useData } from "../../contexts/DataContext";
@@ -55,7 +56,7 @@ const ChartContainer: React.FC<Props> = ({ questionId }) => {
     };
     var chartData = [yes, no];
 
-    var layout: any = {
+    const layout: Partial<Layout> = {
       title: { text: "YES / NO Graph" },
     };
 
