@@ -1,4 +1,3 @@
-import Plotly from "plotly.js-dist-min";
 import type { Layout } from "plotly.js";
 import React, { useEffect } from "react";
 import Web3 from "web3";
@@ -17,6 +16,7 @@ const ChartContainer: React.FC<Props> = ({ questionId }) => {
   const { polymarket } = useData();
 
   const fetchGraphData = async () => {
+    const Plotly = (await import("plotly.js-dist-min")).default;
     var data = await polymarket.methods.getGraphData(questionId).call();
     var yesData: ChartData = {
       time: [],
