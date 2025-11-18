@@ -424,4 +424,4 @@ Whether you're interested in crypto, sports, politics, or just want to test your
 
  
 
-*Built with ❤️ on Polygon blockchain*
+
