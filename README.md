@@ -1,4 +1,4 @@
-# 📘 Polymarket Pro - Complete Website Guide
+# 📘 Polymarket Pro -  
 
 ## 🎯 What is Polymarket Pro?
 
